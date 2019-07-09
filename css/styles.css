@@ -30,18 +30,14 @@ html, body {
   overflow:hidden;
 }
 
-/*#videoBG {
-  position:fixed;
+#videoBG {
+  position:absolute;
   z-index: -2;
   height: 100%;
-  width:3000px;
-  margin:0px;
-  margin-left:auto;
-  margin-right:auto;
-  padding:0px;
-}*/
+  width:100%;
+}
 
-#videoBG {
+/*#videoBG {
 position: absolute;
   top: 50%; 
   left: 50%;
@@ -52,7 +48,7 @@ position: absolute;
   width: auto; 
   height: auto;
   z-index: -12; 
-  overflow: hidden;}
+  overflow: hidden;}*/
 
 
 #bg {
