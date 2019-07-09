@@ -54,7 +54,6 @@ position: absolute;
   z-index: -12; 
   overflow: hidden;}
 
-
 #bg {
   position:fixed;
   z-index: -1;
@@ -62,15 +61,20 @@ position: absolute;
   height: 110vh;
   background-color: rgba(255, 255, 255, 0.8);
 }
-
-body{
-  margin: 0px;
-}
  
 .headerx {
     height: 80vh;
     }
 
+.wrap-header {
+position: relative;
+  top: 50%; 
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+p {margin-left: 20px;
+  margin-right: 20px;}
 .sab-wrapper {
   height: auto;
   width: auto; }
@@ -121,6 +125,11 @@ body{
   .pata {
     padding-bottom: 0px;
 margin-bottom:0px;}
+.pata {
+    padding-bottom: 0px;
+margin-bottom:0px;
+  margin-left: 20px;
+  margin-right: 20px;}
 
 @media (max-width: 575px) {
   .pata {
