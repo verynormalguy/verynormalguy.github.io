@@ -21,35 +21,15 @@
     font-size: 90px;
     line-height: 5.85rem; } }
     
-/*
-@media (max-width: 575px) {
-  .sab-photo {
-    display: none; } }
-@media (min-width: 576px) {
-  .sab-photo {
-    display: none; } }
-@media (min-width: 786px) {
-  .sab-photo {
-    display: inline-block; } }
-@media (min-width: 992px) {
-  .sab-photo {
-    display: inline-block; } }
-@media (min-width: 1200px) {
-  .sab-photo {
-    display: inline-block; } }
-    html {
+html {
       scroll-behavior: smooth;
-    }*/
+    }
 
-html { scroll-behavior: smooth;
-}
 #videoBG {
-  position:absolute;
+  position:fixed;
   z-index: -2;
-  min-height: 100vh;
-  width:auto;
-  left:0%;
-  top:0%;
+  height: 100%;
+  width:100%;
   margin:0px;
   margin-left:auto;
   margin-right:auto;
