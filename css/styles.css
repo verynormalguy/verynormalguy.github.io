@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+@media (max-width: 575px) {
+  .tagline {
+    font-size: 52.5px;
+    line-height: 3.25rem; } }
+@media (min-width: 576px) {
+  .tagline {
+    font-size: 60px;
+    line-height: 3.55rem; } }
+@media (min-width: 786px) {
+  .tagline {
+    font-size: 70px;
+    line-height: 4.75rem; } }
+@media (min-width: 992px) {
+  .tagline {
+    font-size: 80px;
+    line-height: 5.25rem; } }
+@media (min-width: 1200px) {
+  .tagline {
+    padding-top:10vh;
+    font-size: 90px;
+    line-height: 5.85rem; } }
+    
+/*
+@media (max-width: 575px) {
+  .sab-photo {
+    display: none; } }
+@media (min-width: 576px) {
+  .sab-photo {
+    display: none; } }
+@media (min-width: 786px) {
+  .sab-photo {
+    display: inline-block; } }
+@media (min-width: 992px) {
+  .sab-photo {
+    display: inline-block; } }
+@media (min-width: 1200px) {
+  .sab-photo {
+    display: inline-block; } }
+    html {
+      scroll-behavior: smooth;
+    }*/
+#videoBG {
+  position:absolute;
+  z-index: -2;
+  min-height: 100vh;
+  left:0%;
+  top:0%;
+}
+#bg {
+  position:fixed;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+body{
+  background-image: url(img/blue.mp4);
+  margin: 0px;
+}
+ 
+.headerx {
+    height: 80vh;
+    }
+
+.sab-wrapper {
+  height: auto;
+  width: auto; }
+
+.sab-nowrap {
+  white-space: none; }
+
+.sab-navfont {
+  font-size: 20px !important; }
+
+.sab-sub {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2.75rem; }
+
+.navbar {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hoverable {
+  padding-top: 50px; }
+
+.hoverable:hover {
+  color: #0275d8;
+  padding-top: 45px; }
+
+.nav-link {
+  text-decoration: none;
+  padding: 17px 0px;
+  margin: 0px 10px;
+  display: inline-block;
+  position: relative;
+  opacity: 1; }
+
+.nav-link:hover {
+  opacity: 1; }
+
+.nav-link::before {
+  transition: 600ms;
+  height: 3px;
+  position: absolute;
+  background-color: #0275d8; }
+
+.nav-link-ltr::before {
+  width: 00%;
+  bottom: 10px; }
+
+@media (max-width: 575px) {
+  .pata {
+    padding-top: 20px; }
+
+.flashit{
+
+      color:#0275d8;
+      -webkit-animation: flash linear 5s infinite;
+      animation: flash linear 5s infinite;
+    }
+    @-webkit-keyframes flash {
+      0% { opacity: 1; } 
+      50% { opacity: .1; } 
+      100% { opacity: 1; }
+    }
+    @keyframes flash {
+      0% { opacity: 1; } 
+      50% { opacity: .1; } 
+      100% { opacity: 1; }
+    }
