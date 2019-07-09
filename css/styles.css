@@ -33,14 +33,14 @@ html, body {
   padding: 0px;
 }
 
-/*#videoBG {
+#videoBG {
   position:absolute;
   z-index: -2;
   height: 100%;
   width:100%;
-}*/
+}
 
-#videoBG {
+ /*#videoBG {
 position: absolute;
   top: 50%; 
   left: 50%;
@@ -51,7 +51,7 @@ position: absolute;
   width: auto; 
   height: auto;
   z-index: -2; 
-  /*overflow: hidden;*/}
+ overflow: hidden;*/}
 
 
 #bg {
