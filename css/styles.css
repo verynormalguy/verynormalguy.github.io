@@ -55,7 +55,7 @@ position: absolute;
   overflow: hidden;}
 
 #bg {
-  position:fixed;
+  position:absolute;
   z-index: -1;
   width: 100vw;
   height: 110vh;
