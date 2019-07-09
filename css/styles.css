@@ -44,7 +44,7 @@
   position:absolute;
   z-index: -2;
   min-height: 100vh;
-  min-width: 150vw;
+  min-width: 100%;
   left:0%;
   top:0%;
   margin:0px;
