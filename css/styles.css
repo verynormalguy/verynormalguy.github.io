@@ -48,7 +48,7 @@ position: absolute;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   min-width: 100%; 
-  min-height: 100%; 
+  min-height: 110%; 
   width: auto; 
   height: auto;
   z-index: -12; 
@@ -59,7 +59,7 @@ position: absolute;
   position:fixed;
   z-index: -1;
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
