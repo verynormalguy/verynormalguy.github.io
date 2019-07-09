@@ -44,7 +44,7 @@
 html { scroll-behavior: smooth;
 }
 #videoBG {
-  position:fixed;
+  position:absolute;
   z-index: -2;
   min-height: 100vh;
   width:auto;
