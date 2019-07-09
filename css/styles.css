@@ -40,18 +40,20 @@
     html {
       scroll-behavior: smooth;
     }*/
+
+html { scroll-behavior: smooth;
+}
 #videoBG {
-  position:absolute;
+  position:fixed;
   z-index: -2;
   min-height: 100vh;
   width:auto;
-  left:50%;
+  left:0%;
   top:0%;
   margin:0px;
   margin-left:auto;
   margin-right:auto;
   padding:0px;
-  transform: translateX(-25%);
 }
 #bg {
   position:fixed;
