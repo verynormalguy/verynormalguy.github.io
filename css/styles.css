@@ -119,12 +119,15 @@ body{
 .nav-link-ltr::before {
   width: 00%;
   bottom: 10px; }
+  .pata {
+    padding-bottom: 0px;
+margin-bottom:0px;}
 
 @media (max-width: 575px) {
   .pata {
     padding-top: 20px; }
 
-.flashit{
+/*.flashit{
 
       color:#0275d8;
       -webkit-animation: flash linear 5s infinite;
@@ -139,4 +142,4 @@ body{
       0% { opacity: 1; } 
       50% { opacity: .1; } 
       100% { opacity: 1; }
-    }
+    }*/
