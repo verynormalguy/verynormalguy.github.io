@@ -44,6 +44,14 @@ html, body {
 }*/
 
 #videoBG {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));}
+
+/*#videoBG {
 position: absolute;
   left: 100%; 
   top: 100%;
@@ -54,7 +62,7 @@ position: absolute;
   width: auto; 
   height: auto;
   z-index: -12; 
-  overflow: hidden;}
+  overflow: hidden;}*/
 
 #bg {
   position:absolute;
